@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "7353eb38-4666-438f-8c5f-155bdf7effde",
+		"name": "rpd",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"type\":\"Typ3\",\n\t\"value\":\"asdgasdfasd aewsdfeadsf esadfadsfasd\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8081/request",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"request"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
